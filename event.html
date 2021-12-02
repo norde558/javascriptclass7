@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+</head>
+<body>
+    <p>onclick,onsubmit,onchange,onload,onmouseover,onblclick,onkeyup,onkeydown,onkeypress,onmousemove</p>
+
+    <button onclick="demo_function()">click to see the result</button>
+    <p id="result"></p>
+    <script>
+        function demo_function(){
+            // document.write('this is quick event')
+            document.getElementById('result').innerHTML='this is click event'
+        }
+    </script>
+</body>
+</html>

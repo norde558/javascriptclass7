@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statement</title>
+</head>
+<body>
+    <pre>
+        i>if
+        ii> if ...else
+        iii> else if 
+        iv> switch
+     </pre>
+    <script>
+        const a=prompt('enter any number to check whether its even or odd')
+        if(a%2==0){
+            document.write(`even number<br>`)
+        }
+        else{
+            document.write(`odd number<br>`)
+        }
+
+        //leap year
+        const year=prompt('enter any year to check whether its leap year or not')
+        if(year%4==0 && year%100!=0 || year%400==0){
+            document.write(`${year} is a leap year <br>`)
+        }
+        else{
+            document.write(`${year} is not a leap year <br>`)
+        }
+
+        //positve or negative
+        const a=prompt('enter any number to check whether its positive or negative')
+        if(a=>0){
+            document.write(`it is a positive number<br>`)
+        }
+        else{
+            document.write(`it is a negative number`)
+        }
+    </script>
+</body>
+</html>
